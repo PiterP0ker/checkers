@@ -1,0 +1,73 @@
+body{
+	background-color: #A7B7C6;
+}
+
+.ba-container{
+	width: 80vmin;
+	height: 80vmin;
+	border: 25px solid #DAB370;
+	margin: 10vmin auto;
+	background-color: #DAB370;
+	position: relative;
+}
+
+.ba-checkers-board {
+	border: 2px solid #602918;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+
+.fourth :nth-child(odd) {
+  background-color: #602918;
+}
+
+.one {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	right: 0;
+	top: 0;
+ }
+ .two {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	left: 0;
+	top: 0;
+ }
+ .three {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+ }
+ .four {
+	width: 50%;
+	height: 50%;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+ }
+
+ .fourth .checker {
+	position: absolute;
+	width: 80%;
+	height: 50%;
+	top: 25%;
+	right: 10%;
+	background-color: #CFC5B8;
+	border-radius: 50%;
+	border: 2px solid black;
+	box-shadow: 0px 10px 1px black;
+}
+
+.fourth .checker:hover {
+	transform: translateY(-20px);
+	cursor: pointer;
+}
+
+.checkers-fourth:nth-child(n+3) .fourth .checker {
+	background-color: #3A6395;
+}
