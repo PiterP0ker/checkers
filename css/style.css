@@ -63,11 +63,11 @@ body{
 	box-shadow: 0px 10px 1px black;
 }
 
-.fourth .checker:hover {
+.checker:hover {
 	transform: translateY(-20px);
 	cursor: pointer;
 }
 
-.checkers-fourth:nth-child(n+3) .fourth .checker {
+.checkers-fourth:nth-child(n+3) .checker {
 	background-color: #3A6395;
 }
